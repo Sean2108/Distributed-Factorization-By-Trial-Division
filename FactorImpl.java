@@ -1,3 +1,7 @@
+/**
+ * @author Sean Tan
+ */
+
 import java.rmi.*;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.*;
@@ -6,7 +10,6 @@ import java.time.Duration;
 import java.math.BigInteger;
 
 /**
- * @author Sean
  * implementation of factor interface.
  */
 public class FactorImpl extends UnicastRemoteObject implements Factor, Runnable {

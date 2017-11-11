@@ -1,5 +1,4 @@
 /**
- * @author Sean Tan
  * interface class for Factor, provides the constant SERVICENAME for RMI lookup and the method to connect to it
  */
 

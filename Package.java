@@ -1,7 +1,10 @@
+/**
+ * @author Sean Tan
+ */
+
 import java.io.Serializable;
 
 /**
- * @author Sean
  * class for transferring start and end points
  * of search spaces
  */
