@@ -19,5 +19,6 @@
 
 set -o nounset                              # Treat unset variables as an error
 
+cd client
 rmiregistry &
-java -Djava.security.policy=policy.txt client/FactorClientImpl
+java -Djava.security.policy=policy.txt FactorClientImpl
